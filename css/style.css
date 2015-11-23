@@ -1,11 +1,4 @@
-@media only screen and (max-width: 500px) {
-    .masthead {
-        padding: 3em 0;
-    }
-    .masthead-heading {
-        font-size: 3em;
-    }
-}
+
 body {
     /* Typography Declarations */
     color: #222222;
@@ -83,4 +76,26 @@ a{
 }
 a:link {
     text-decoration: none;
+}
+@media only screen and (max-width: 500px) {
+    .masthead {
+        padding: 3em 0;
+    }
+    .masthead-heading {
+        font-size: 3em;
+        color:red;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .intro ,.location,.aboutme{
+        padding: 3em 2em;
+    }
+    
+}
+@media only screen and (max-width: 500px) {
+    .footer{
+        padding: 3em 2em;
+         height:145px;
+    }
+    
 }
